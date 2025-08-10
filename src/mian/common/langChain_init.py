@@ -6,7 +6,7 @@ def ollama_chat_init(models: str):
     return ChatOllama(
         base_url="http://127.0.0.1:11434/",
         model=models,
-        reasoning=False,
+        # reasoning=False,
 
     )
 
